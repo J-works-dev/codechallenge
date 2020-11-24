@@ -63,6 +63,7 @@ def power(a,b):
     return
   if type(b) is int or type(b) is float:
     print("Power:", a, "^", b, "=", pow(a,b))
+    print("Power:", a, "^", b, "=", a ^ b) #doesn't work
   else:
     print("need to put Number!!")
 
